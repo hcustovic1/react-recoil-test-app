@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { NameInputForm } from '../components/NameInputForm';
 import { useHistory } from 'react-router-dom';
 
 export default function Start() {
@@ -15,7 +14,6 @@ export default function Start() {
         <section>
             <header>
                 <h2>Welcoming Session</h2>
-                <NameInputForm />
             </header>
         </section>
     );

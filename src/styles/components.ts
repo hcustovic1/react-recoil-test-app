@@ -5,7 +5,7 @@ export const StyledApp = styled.div`
 `;
 
 export const StyledAppBody = styled.header`
-    background-color: #282c34;
+    background-color: ${({ theme }) => theme.colors.operaMauve};
     min-height: 100vh;
     display: flex;
     flex-direction: column;
