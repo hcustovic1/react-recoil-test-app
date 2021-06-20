@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export default function NameInputForm() {
+export function NameInputForm() {
     const StyledTextInputContainer = styled.div`
         display: flex;
         flex-direction: column;
