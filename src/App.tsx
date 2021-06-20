@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Dashboard from './pages/Dashboard';
 import Start from './pages/Start';
@@ -6,7 +6,7 @@ import { ThemeProvider } from 'styled-components';
 import { mainTheme } from './styles/theme';
 import { StyledApp, StyledAppBody } from './styles/components';
 
-function App() {
+const App = (): FunctionComponent => {
     return (
         <Router>
             <ThemeProvider theme={mainTheme}>
@@ -24,6 +24,6 @@ function App() {
             </ThemeProvider>
         </Router>
     );
-}
+};
 
 export default App;
